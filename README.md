@@ -10,7 +10,7 @@ This project consists of steps that include the **front-end client** originally 
 
 
 
-![](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.001.png)
+![](images/1.png)
 
 
 

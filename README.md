@@ -40,7 +40,7 @@ Solidity allows us to create our own structure types as we've done for our candi
 
 
 
-![](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.002.png)
+![](images/2.png)
 
 
 
@@ -56,7 +56,7 @@ Solidity allows us to create our own structure types as we've done for our candi
 
 
 
-![](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.003.png)
+![](images/3.png)
 
 **Step 5: Cast votes:** 
 
@@ -68,9 +68,7 @@ This helps us to add votes in the election. Once the Ether has been successfully
 
 
 
-![](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.004.png)![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.005.jpeg)
+![](images/4.png)![Graphical user interface, application Description automatically generated](images/5.jpeg)
 
 
 
@@ -82,11 +80,9 @@ On confirming the payment at a particular set amount of gas and time, the voter 
 **
 
 
-![](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.006.png)
+![](images/6.png)
 
-![Graphical user interface, website
-
-Description automatically generated](Aspose.Words.2af16d72-0f7e-4411-ab21-61bc9487f8d1.007.jpeg)** 
+![Graphical user interface, website Description automatically generated](images/7.jpeg)** 
 **
 
 

@@ -28,13 +28,13 @@ The smart contract will originally consist of all the business logic of the proj
 
 **Step 3: List the Candidates:** 
 
-Solidity allows us to create our own structure types as we've done for our candidate here. We specified that this struct has an id of unsigned integer type, name of string type, and vote Count of unsigned integer type. Simply declaring this struct won't actually give us a candidate. We need to instantiate it and assign it to a variable before we can write it to storage. The next thing we need is a place to store the candidates. We need a place to store one of the structure types that we've just created. We can do this with a [Solidity mapping.](https://solidity.readthedocs.io/en/v0.4.21/types.html?highlight=mapping&mappings)[ ](https://solidity.readthedocs.io/en/v0.4.21/types.html?highlight=mapping&mappings)[A](https://solidity.readthedocs.io/en/v0.4.21/types.html?highlight=mapping&mappings) mapping in Solidity is like an associative array or a hash that associates key-value pairs. We've declared the function addCandidate that takes one argument of string type that represents the candidate's name. Inside the function, we increment the candidate counter cache to denote that a new candidate has been added. 
+Solidity allows us to create our own structure types as we've done for our candidate here. We specified that this struct has an id of unsigned integer type, name of string type, and vote Count of unsigned integer type. Simply declaring this struct won't actually give us a candidate. We need to instantiate it and assign it to a variable before we can write it to storage. The next thing we need is a place to store the candidates. We need a place to store one of the structure types that we've just created. We can do this with a [Solidity mapping](https://solidity.readthedocs.io/en/v0.4.21/types.html?highlight=mapping&mappings). A mapping in Solidity is like an associative array or a hash that associates key-value pairs. We've declared the function addCandidate that takes one argument of string type that represents the candidate's name. Inside the function, we increment the candidate counter cache to denote that a new candidate has been added. 
 
 
 
 **Step 4: Get Ether from faucet:** 
 
-` `The voters create an account in Metamask and connect it to the Ethereum server. The voter must import ether from the Metamask faucet into their account to be able to cast their votes.  
+The voters create an account in Metamask and connect it to the Ethereum server. The voter must import ether from the Metamask faucet into their account to be able to cast their votes.
 
 
 
@@ -73,21 +73,16 @@ This helps us to add votes in the election. Once the Ether has been successfully
 
 
 On confirming the payment at a particular set amount of gas and time, the voter can cast their votes to their desired candidate. Once the payment is confirmed, there is a notification saying the transaction was successful and the payment has been deducted from the account. Until then, the payment is pending! 
-**
-
-**
-
-**
 
 
 ![](images/6.png)
 
-![Graphical user interface, website Description automatically generated](images/7.jpeg)** 
-**
+![Graphical user interface, website Description automatically generated](images/7.jpeg)
+
 
 
 **Step 6: Testing:** 
-**
+
 
 
 - Test Case 1: Checks that only 2 candidates are totally present, and addition of candidates will result in test case failure. 
